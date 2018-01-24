@@ -12,8 +12,8 @@
       </PolyStyle>
     </Style>
     <Placemark>
-      <name>USCG_Districts-1</name>
-      <description><![CDATA[USCG_Districts        <br>- DIST_NUM: 17.0   <br>- OFFICE: Juneau, Alaska   <br>- ZONES: Cotp Zones Consist of Southeast Alaska, Western Alaska, and Prince William Sound   <br>- DIST_NAME: District 17   <br>- Shape_Leng: 301.26362031   <br>- Shape_Area: 1917.35522725]]></description>
+      <name>USCG_Districts.1</name>
+      <description><![CDATA[USCG_Districts        <br>- DIST_NUM: 17.0   <br>- OFFICEXXX: Juneau, Alaska   <br>- ZONES: Cotp Zones Consist of Southeast Alaska, Western Alaska, and Prince William Sound   <br>- DIST_NAME: District 17   <br>- Shape_Leng: 301.26362031   <br>- Shape_Area: 1917.35522725]]></description>
       <styleUrl>#districtStyle</styleUrl>
       <MultiGeometry>
         <styleUrl>#districtStyle</styleUrl>
