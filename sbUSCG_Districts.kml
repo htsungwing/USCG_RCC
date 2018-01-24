@@ -4,11 +4,11 @@
     <name>sb:USCG_Districts</name>
     <Style id="districtStyle">
       <LineStyle>
-        <color>50F06414</color>
+        <color>501400E6</color>
         <width>4</width>
       </LineStyle>
       <PolyStyle>
-        <color>50F0AA14</color>
+        <color>501400E6</color>
       </PolyStyle>
     </Style>
     <Placemark>
