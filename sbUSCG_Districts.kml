@@ -2,44 +2,44 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>sb:USCG_Districts</name>
-    <Style id="icon-1502-0288D1-normal">
+    <Style id="districtStyle-normal">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>50F09614</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>https://github.com/htsungwing/USCG_RCC/blob/master/star.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
     </Style>
-    <Style id="icon-1502-0288D1-highlight">
+    <Style id="districtStyle-highlight">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>50F0C814</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>https://github.com/htsungwing/USCG_RCC/blob/master/star.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
     </Style>
-    <StyleMap id="icon-1502-0288D1">
+    <StyleMap id="districtStyle">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1502-0288D1-normal</styleUrl>
+        <styleUrl>#districtStyle-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1502-0288D1-highlight</styleUrl>
+        <styleUrl>#districtStyle-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
       <name>USCG_Districts.1</name>
       <description><![CDATA[USCG_Districts        <br>- DIST_NUM: 17.0   <br>- OFFICE: Juneau, Alaska   <br>- ZONES: Cotp Zones Consist of Southeast Alaska, Western Alaska, and Prince William Sound   <br>- DIST_NAME: District 17   <br>- Shape_Leng: 301.26362031   <br>- Shape_Area: 1917.35522725]]></description>
-      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <styleUrl>#districtStyle</styleUrl>
       <MultiGeometry>
         <Point>
           <coordinates>
@@ -4571,7 +4571,7 @@
     <Placemark>
       <name>USCG_Districts.2</name>
       <description><![CDATA[USCG_Districts        <br>- DIST_NUM: 7.0   <br>- OFFICE: Miami, Florida   <br>- ZONES: Cotp Zones consist of Miami, Charleston, Jacksonville, San Juan, St. Petersburg, Key West, and Savannah   <br>- DIST_NAME: District 7   <br>- Shape_Leng: 156.545343773   <br>- Shape_Area: 639.276262449]]></description>
-      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <styleUrl>#districtStyle</styleUrl>
       <MultiGeometry>
         <Point>
           <coordinates>
@@ -9593,7 +9593,7 @@
     <Placemark>
       <name>USCG_Districts.3</name>
       <description><![CDATA[USCG_Districts        <br>- DIST_NUM: 13.0   <br>- OFFICE: Seattle, Washington   <br>- ZONES: Cotp Zones consist of Puget Sound and Portland   <br>- DIST_NAME: District 13   <br>- Shape_Leng: 159.597394603   <br>- Shape_Area: 378.295265117]]></description>
-      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <styleUrl>#districtStyle</styleUrl>
       <MultiGeometry>
         <Point>
           <coordinates>
@@ -10849,7 +10849,7 @@
     <Placemark>
       <name>USCG_Districts.4</name>
       <description><![CDATA[USCG_Districts        <br>- DIST_NUM: 14.0   <br>- OFFICE: Honolulu, Hawaii   <br>- ZONES: Cotp Zones consist of Honolulu and Guam   <br>- DIST_NAME: District 14   <br>- Shape_Leng: 423.583892674   <br>- Shape_Area: 3753.63059115]]></description>
-      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <styleUrl>#districtStyle</styleUrl>
       <MultiGeometry>
         <Point>
           <coordinates>
@@ -11390,7 +11390,7 @@
     <Placemark>
       <name>USCG_Districts.5</name>
       <description><![CDATA[USCG_Districts        <br>- DIST_NUM: 5.0   <br>- OFFICE: Portsmouth, Virginia   <br>- ZONES: Cotp Zones consist of Delaware Bay, Hampton Roads, Baltimore, Wilmington and Cape Fear   <br>- DIST_NAME: District 5   <br>- Shape_Leng: 58.6341581211   <br>- Shape_Area: 89.9493635883]]></description>
-      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <styleUrl>#districtStyle</styleUrl>
       <MultiGeometry>
         <Point>
           <coordinates>
@@ -16412,7 +16412,7 @@
     <Placemark>
       <name>USCG_Districts.6</name>
       <description><![CDATA[USCG_Districts        <br>- DIST_NUM: 11.0   <br>- OFFICE: Alameda, California   <br>- ZONES: Cotp Zones consist of Los Angeles-Long Beach, San Diego and San Francisco Bay   <br>- DIST_NAME: District 11   <br>- Shape_Leng: 258.919313511   <br>- Shape_Area: 1186.61926275]]></description>
-      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <styleUrl>#districtStyle</styleUrl>
       <MultiGeometry>
         <Point>
           <coordinates>
@@ -25133,7 +25133,7 @@
     <Placemark>
       <name>USCG_Districts.7</name>
       <description><![CDATA[USCG_Districts        <br>- DIST_NUM: 1.0   <br>- OFFICE: Boston, Massachusetts   <br>- ZONES: Cotp Zones consist of Boston, Northern New England, Southeastern New England, New York and Long Island Sound   <br>- DIST_NAME: District 1   <br>- Shape_Leng: 43.4593698808   <br>- Shape_Area: 67.0037886709]]></description>
-      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <styleUrl>#districtStyle</styleUrl>
       <MultiGeometry>
         <Point>
           <coordinates>
@@ -30155,7 +30155,7 @@
     <Placemark>
       <name>USCG_Districts.8</name>
       <description><![CDATA[USCG_Districts        <br>- DIST_NUM: 9.0   <br>- OFFICE: Cleveland, Ohio   <br>- ZONES: Cotp Zones consist of Buffalo, Detroit, Duluth, Lake Michigan, and Sault Ste. Marie   <br>- DIST_NAME: District 9   <br>- Shape_Leng: 71.3659400694   <br>- Shape_Area: 75.8929552121]]></description>
-      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <styleUrl>#districtStyle</styleUrl>
       <MultiGeometry>
         <Point>
           <coordinates>
@@ -35177,7 +35177,7 @@
     <Placemark>
       <name>USCG_Districts.9</name>
       <description><![CDATA[USCG_Districts        <br>- DIST_NUM: 8.0   <br>- OFFICE: New Orleans, Louisiana   <br>- ZONES: Cotp Zones consist of Mobile, New Orleans, MSU Morgan City, Corpus Christi, Upper Mississippi, Lower Mississippi, Ohio Valley and MSU Pittsburg   <br>- DIST_NAME: District 8   <br>- Shape_Leng: 161.739631826   <br>- Shape_Area: 540.003755784]]></description>
-      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <styleUrl>#districtStyle</styleUrl>
       <MultiGeometry>
         <Point>
           <coordinates>
