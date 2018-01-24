@@ -2,40 +2,15 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>sb:USCG_Districts</name>
-    <Style id="districtStyle-normal">
-      <IconStyle>
-        <color>50F09614</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://github.com/htsungwing/USCG_RCC/blob/master/star.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
+    <Style id="districtStyle">
+      <LineStyle>
+        <color>50F06414</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>50F0AA14</color>
+      </PolyStyle>
     </Style>
-    <Style id="districtStyle-highlight">
-      <IconStyle>
-        <color>50F0C814</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://github.com/htsungwing/USCG_RCC/blob/master/star.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="districtStyle">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#districtStyle-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#districtStyle-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Placemark>
       <name>USCG_Districts.1</name>
       <description><![CDATA[USCG_Districts        <br>- DIST_NUM: 17.0   <br>- OFFICE: Juneau, Alaska   <br>- ZONES: Cotp Zones Consist of Southeast Alaska, Western Alaska, and Prince William Sound   <br>- DIST_NAME: District 17   <br>- Shape_Leng: 301.26362031   <br>- Shape_Area: 1917.35522725]]></description>
